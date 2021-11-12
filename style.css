@@ -1,0 +1,44 @@
+.cabecalho{
+    background-color:#FF7F50;
+    display:  flex;
+    justify-content:  space-between;
+}
+.menu{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    margin:10px
+}
+.intro{
+    display:flex;
+    flex-direction:column;
+    justify-content: first baseline;
+}
+.rodape{
+    display:  flex;
+    justify-content: flex-end;
+}
+.personagens{
+    display:  flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.jogando{
+    display:  flex;
+    justify-content:space-between;
+    background-color: #FFE4C4;
+}
+.aprendemo{
+    position:relative;
+}
+body{
+    background-image:url(/palavraPequena/Icons/cachorro.jpg);
+}
+a:link{
+    color:orangered;
+}
+a:visited{
+    color:rgb(139, 100, 28)
+}
+.aprendemo:hover h3{opacity:0.5}
